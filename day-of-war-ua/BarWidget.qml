@@ -80,7 +80,6 @@ Rectangle {
         pluginApi.saveSettings()
         root.total = pluginApi.pluginSettings.total
         row.children[1].text = getDays()
-        TooltipService.show(root, getFullDateString(), BarService.getTooltipDirection())
       }
     }
 
