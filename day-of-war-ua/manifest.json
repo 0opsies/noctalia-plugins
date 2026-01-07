@@ -3,10 +3,10 @@
     "name": "Day of War in Ukraine",
     "version": "0.0.1",
     "minNoctaliaVersion": "3.8.0",
-    "author": "Vladyslav Pavlenko",
+    "author": "pvlvld",
     "license": "MIT",
     "repository": "https://github.com/pvlvld/noctalia-plugins",
-    "description": "Shows the current day of war in Ukraine as a widget",
+    "description": "Shows the number of days since the start of the war in Ukraine",
     "entryPoints": {
         "barWidget": "BarWidget.qml"
     },
