@@ -4,14 +4,14 @@
         {
             "id": "day-of-war-ua",
             "name": "Day of War in Ukraine",
-            "version": "0.0.2",
+            "version": "1.0.0",
             "author": "pvlvld",
             "description": "Shows the number of days since the start of the war in Ukraine",
             "repository": "https://github.com/noctalia-dev/noctalia-plugins",
-            "minNoctaliaVersion": "3.0.0",
+            "minNoctaliaVersion": "3.8.0",
             "license": "MIT",
             "tags": ["Bar", "Not Fun"],
-            "lastUpdated": "2026-01-07T14:21:51.565Z"
+            "lastUpdated": "2026-02-20T15:20:46.314Z"
         }
     ]
 }

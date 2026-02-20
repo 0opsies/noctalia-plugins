@@ -6,7 +6,7 @@ import qs.Widgets
 import qs.Services.UI
 import qs.Services.System
 
-Rectangle {
+Item {
   id: root
 
   property var pluginApi: null
@@ -16,10 +16,11 @@ Rectangle {
 
   property bool total: pluginApi?.pluginSettings?.total || false
 
+  readonly property string screenName: screen?.name ?? ""
+  readonly property real capsuleHeight: Style.getCapsuleHeightForScreen(screenName)
+
   implicitWidth: row.implicitWidth + Style.marginM * 2
-  implicitHeight: Style.barHeight
-  color: Style.capsuleColor
-  radius: Style.radiusM
+  implicitHeight: capsuleHeight
 
   property date startDate: new Date("2014-02-20T00:00:00Z")
   property date startDateFullScale: new Date("2022-02-24T04:00:00Z")
@@ -52,20 +53,32 @@ Rectangle {
   }
 
 
-  RowLayout {
-    id: row
-    anchors.centerIn: parent
-    spacing: Style.marginS
+  Rectangle {
+    id: visualCapsule
+    x: Style.pixelAlignCenter(parent.width, width)
+    y: Style.pixelAlignCenter(parent.height, height)
+    width: root.implicitWidth
+    height: root.implicitHeight
+    color: Style.capsuleColor
+    radius: Style.radiusL
+    border.color: Style.capsuleBorderColor
+    border.width: Style.capsuleBorderWidth
 
-    NIcon {
-      icon: "heart-broken"
-      color: Color.mPrimary
-    }
+    RowLayout {
+      id: row
+      anchors.centerIn: parent
+      spacing: Style.marginS
 
-    NText {
-      text: getDays()
-      color: Color.mOnSurface
-      pointSize: Style.fontSizeS
+      NIcon {
+        icon: "heart-broken"
+        color: Color.mPrimary
+      }
+
+      NText {
+        text: getDays()
+        color: Color.mOnSurface
+        pointSize: Style.fontSizeS
+      }
     }
   }
 
