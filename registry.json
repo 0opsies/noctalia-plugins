@@ -5,6 +5,7 @@
             "id": "day-of-war-ua",
             "name": "Day of War in Ukraine",
             "version": "1.0.0",
+            "official": false,
             "author": "pvlvld",
             "description": "Shows the number of days since the start of the war in Ukraine",
             "repository": "https://github.com/noctalia-dev/noctalia-plugins",
