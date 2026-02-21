@@ -1,0 +1,22 @@
+{
+    "id": "gaza-war-tracker",
+    "name": "Day of Gaza Genocide",
+    "version": "1.0.0",
+    "minNoctaliaVersion": "4.5.0",
+    "author": "pvlvld",
+    "license": "MIT",
+    "repository": "https://github.com/pvlvld/noctalia-plugins",
+    "description": "Shows the number of days since the start of Israel's Genocidal War on Gaza,
+    "tags": ["Bar", "Panel"],
+    "entryPoints": {
+        "barWidget": "BarWidget.qml"
+    },
+    "dependencies": {
+        "plugins": []
+    },
+    "metadata": {
+        "defaultSettings": {
+            "total": false
+        }
+    }
+}
