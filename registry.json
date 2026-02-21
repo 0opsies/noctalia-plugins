@@ -2,17 +2,17 @@
     "version": 1,
     "plugins": [
         {
-            "id": "day-of-war-ua",
-            "name": "Day of War in Ukraine",
+            "id": "gaza-war-tracker",
+            "name": "Day of Gaza Genocide",
             "version": "1.0.0",
             "official": false,
-            "author": "pvlvld",
-            "description": "Shows the number of days since the start of the war in Ukraine",
-            "repository": "https://github.com/noctalia-dev/noctalia-plugins",
-            "minNoctaliaVersion": "3.8.0",
+            "author": "0opsies",
+            "description": "Shows the number of days since the start of Israel's Genocidal War on Gaza Began",
+            "repository": "https://github.com/0opsies/noctalia-plugins",
+            "minNoctaliaVersion": "4.5.0",
             "license": "MIT",
             "tags": ["Bar", "Not Fun"],
-            "lastUpdated": "2026-02-20T15:20:46.314Z"
+            "lastUpdated": "2026-02-22T15:12:46.314Z"
         }
     ]
 }
