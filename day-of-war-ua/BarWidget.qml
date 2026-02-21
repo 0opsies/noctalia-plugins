@@ -50,7 +50,7 @@ Item {
       months += 12
     }
 
-    return years + " Years, " + months + " Months, " + days + " Days since Gaza war began"
+    return years + " Years, " + months + " Months, " + days + " Days since Gaza Genocide began"
   }
 
 
