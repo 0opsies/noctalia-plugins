@@ -21,7 +21,7 @@ Plugins from repository will be visible in the list.
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-## Thank You's 
+## Appreciations
   This is a fork of pvlvld's Plugin which tracks Russia's Invasion of Ukraine and the subsequent Full-Scale Offensive thereafter. All major code credit goes to pvlvld for his work. 
 
   Slava Ukraini.
